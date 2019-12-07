@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Helvetica Neue',
+    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+
+  background-color: burlywood;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.country {
+  list-style: none;
+}
+.country__title {
+  font-size: 36px;
+  text-transform: uppercase;
+}
+.country__wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.country__info {
+  font-size: 16px;
+  font-weight: bold;
+}
